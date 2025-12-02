@@ -2,6 +2,10 @@ package com.ecommerce.project.exception;
 
 public class ResourceNotFoundException extends RuntimeException {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	String resourceName;
 	String field;
 	String fieldName;
